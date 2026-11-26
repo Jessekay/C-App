@@ -4,6 +4,7 @@ import OperationButton from "./components/OperationButton"
 const keyStyle = "h-27 bg-[#dcdcdc] text-3xl text-black cursor-pointer active:brightness-90"
 
 function App() {
+  
   return (
     <main className="flex min-h-screen items-center justify-center p-4 font-[Arial,sans-serif]">
       <div className="w-full max-w-sm">
