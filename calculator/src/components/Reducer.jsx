@@ -18,6 +18,10 @@ function reducer(state, {type, payload}) {
         return state;
       }
 
+      return {
+        ...state,
+        currentOperand: `${state.currentOperand || ""}${payload.digit}`
+      }
   }
 }
 
