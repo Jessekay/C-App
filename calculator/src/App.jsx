@@ -23,7 +23,6 @@ function App() {
 
         <div className="grid grid-cols-4 gap-px bg-[#7a7c89] pt-px">
           <button className={keyStyle} onClick={() => dispatch({type: ACTIONS.CLEAR})}>AC</button>
-          {/* <button className={keyStyle} onClick={() => dispatch({type: ACTIONS.DELETE_DIGIT})}>DEL</button> */}
           <button className={keyStyle}>+/-</button>
           <button className={keyStyle}>%</button>
           <OperationButton operation="/" dispatch={dispatch}/>
